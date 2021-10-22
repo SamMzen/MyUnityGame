@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4285159712164076554}
   - component: {fileID: 4754954088301584790}
+  - component: {fileID: 8911722441266224484}
   m_Layer: 0
   m_Name: Data Folder
   m_TagString: Untagged
@@ -82,3 +83,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8911722441266224484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4962554492696648817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b4afbf0094f6f4b8538e5e562c7b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorBaseTexture: {fileID: 2800000, guid: 7e260e451a2741845ad7c44d8b7f4f7b, type: 3}
+  cursorAnimTexture: {fileID: 2800000, guid: 7e260e451a2741845ad7c44d8b7f4f7b, type: 3}
+  waypoints:
+  - {fileID: 4489455848000012705, guid: 0845cecac0ac23d44a615388ce8284cd, type: 3}
+  - {fileID: 2983034068623717214, guid: 5e526972360bc26438cdda529568ae43, type: 3}
+  - {fileID: 8244318565483491367, guid: a34f0932bd6666c4b8b5c456b6ec3c04, type: 3}
+  - {fileID: 0}
+  moveSpeed: 2
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
+  hitSound: {fileID: 0}
