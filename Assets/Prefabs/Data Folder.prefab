@@ -100,8 +100,6 @@ MonoBehaviour:
   waypoints:
   - {fileID: 4489455848000012705, guid: 0845cecac0ac23d44a615388ce8284cd, type: 3}
   - {fileID: 2983034068623717214, guid: 5e526972360bc26438cdda529568ae43, type: 3}
-  - {fileID: 8244318565483491367, guid: a34f0932bd6666c4b8b5c456b6ec3c04, type: 3}
-  - {fileID: 0}
   moveSpeed: 2
   audioSource: {fileID: 0}
   breakSound: {fileID: 0}
