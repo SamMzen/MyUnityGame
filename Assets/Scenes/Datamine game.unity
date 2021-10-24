@@ -819,6 +819,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1991687583}
   - {fileID: 1861345881}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1903,9 +1904,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1861345881}
   - component: {fileID: 1861345882}
-  - component: {fileID: 1861345883}
   m_Layer: 5
-  m_Name: healthbar
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1925,7 +1925,7 @@ RectTransform:
   - {fileID: 1251928776}
   - {fileID: 1859632896}
   m_Father: {fileID: 715632656}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1983,24 +1983,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1861345883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1861345880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a537518ea4d229645b9f7da3407b5ec7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeRemaining: 30
-  timerIsRunning: 1
-  slider: {fileID: 1861345880}
-  gameOverPanel: {fileID: 0}
-  audioSource: {fileID: 0}
-  gameOverSound: {fileID: 0}
 --- !u!1 &1874335529 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4962554492696648817, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
@@ -2121,6 +2103,60 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 8911722441266224484, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
+--- !u!1 &1991687582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1991687583}
+  - component: {fileID: 1991687584}
+  m_Layer: 5
+  m_Name: Timer manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1991687583
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991687582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 715632656}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1991687584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991687582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a537518ea4d229645b9f7da3407b5ec7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeRemaining: 0
+  timerIsRunning: 1
+  slider: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  audioSource: {fileID: 0}
+  gameOverSound: {fileID: 0}
 --- !u!1 &2021836369
 GameObject:
   m_ObjectHideFlags: 0
