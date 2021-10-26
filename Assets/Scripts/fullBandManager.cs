@@ -28,7 +28,7 @@ public class fullBandManager : MonoBehaviour
                 else if (gameManagerE2.life <= 0 && gameManagerE2.isCollisionActive)
                 {
                     gameManagerE2.bandSpeed = 0;
-                    SceneManager.LoadScene("GameOverScene");
+                    SceneManager.LoadScene("Ecran Défaite");
 
                     Cursor.SetCursor(gameManagerE2.cursorTexture2, gameManagerE2.hotSpot, gameManagerE2.cursorMode);
                 }
@@ -42,7 +42,7 @@ public class fullBandManager : MonoBehaviour
                 gameManagerE2.bandSpeed = 0;
                 OverheatBar.heat += 1.0f;
                 OverheatBar.isGame3Finished = true;
-                SceneManager.LoadScene("DesktopScene");
+                SceneManager.LoadScene("HubCentrale");
             }
         }
 
