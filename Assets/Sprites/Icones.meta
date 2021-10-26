@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: a2f1afbcb9a96964a8cc760cc4af9071
 =======
 guid: 8b3e352fa726f7346924d543167bb223
@@ -8,6 +9,9 @@ guid: 8b3e352fa726f7346924d543167bb223
 =======
 guid: 52f65c66ce6cc8e489df1f7b8d423a0a
 >>>>>>> V1_Motdepasse
+=======
+guid: 7aa70c74cf71cbb43bd85210ec34efe0
+>>>>>>> v1hub+EcranVictoire+Défaite
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

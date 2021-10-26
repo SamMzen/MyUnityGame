@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: f02a33b9ea0760c43bd3a43eeee77a4d
 =======
 guid: 6c2c34363bf53a44295f2e5bccc3e29f
@@ -8,6 +9,9 @@ guid: 6c2c34363bf53a44295f2e5bccc3e29f
 =======
 guid: 248879afa65a9de478088de41bef4148
 >>>>>>> V1_Motdepasse
+=======
+guid: 88f5a9f6eb407a840ba57a7cbc9e86a3
+>>>>>>> v1hub+EcranVictoire+Défaite
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
