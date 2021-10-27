@@ -263,6 +263,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4754954088301584790, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62643de96e258334594730709e6d813c, type: 3}
     - target: {fileID: 4962554492696648817, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
       propertyPath: m_Name
       value: Data Folder (3)
@@ -714,6 +718,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4754954088301584790, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62643de96e258334594730709e6d813c, type: 3}
     - target: {fileID: 4962554492696648817, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
       propertyPath: m_Name
       value: Data Folder (4)
@@ -772,6 +780,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4754954088301584790, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62643de96e258334594730709e6d813c, type: 3}
     - target: {fileID: 4962554492696648817, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
       propertyPath: m_Name
       value: Data Folder (1)
@@ -1050,6 +1062,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4754954088301584790, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62643de96e258334594730709e6d813c, type: 3}
     - target: {fileID: 4962554492696648817, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
       propertyPath: m_Name
       value: Data Folder (6)
@@ -1108,6 +1124,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4754954088301584790, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62643de96e258334594730709e6d813c, type: 3}
     - target: {fileID: 4962554492696648817, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
       propertyPath: m_Name
       value: Data Folder (2)
@@ -1694,6 +1714,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4754954088301584790, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62643de96e258334594730709e6d813c, type: 3}
     - target: {fileID: 4962554492696648817, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
       propertyPath: m_Name
       value: Data Folder
@@ -1812,6 +1836,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4754954088301584790, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62643de96e258334594730709e6d813c, type: 3}
     - target: {fileID: 4962554492696648817, guid: 9972bfaa644ec124b9b7291790496462, type: 3}
       propertyPath: m_Name
       value: Data Folder (5)
