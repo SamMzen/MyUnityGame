@@ -1,17 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-guid: 21b18abbeb6f1884eaaca565a1ae8a3a
-=======
-guid: ce22e7d9fbfd3ec449ad3b93f43dfd3b
->>>>>>> v1firewall
-=======
-guid: 2d777c4391cfcea4caaf6952088bfa74
->>>>>>> V1_Motdepasse
-=======
-guid: fe51721d364252d4ba789b82a85d865a
->>>>>>> v1hub+EcranVictoire+Défaite
+guid: 97ad943f3d264fa42877ef6644bcb8c6
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
