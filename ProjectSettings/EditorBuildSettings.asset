@@ -6,21 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Mot de Passe.unity
-    guid: 039de5f8128883c41999538106288f6b
-  - enabled: 1
-    path: Assets/Scenes/HubCentrale.unity
-    guid: c556794a87521c043930bb8a645c2011
-  - enabled: 1
-    path: Assets/Scenes/Firewall.unity
-    guid: 4889167410d448d458ac30bcb4588579
-  - enabled: 1
-    path: Assets/Scenes/Datamine game.unity
-    guid: 4fc32e3e801240d458441c4cca1f272f
-  - enabled: 1
-    path: "Assets/Scenes/Ecran D\xE9faite.unity"
-    guid: f58c6122be25dee48b0423326babffcd
-  - enabled: 1
-    path: Assets/Scenes/Ecran Victoire.unity
-    guid: afedf9f8e5d5fd14798c8b310c5aebfc
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
