@@ -604,7 +604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 2
-  numberOfRow: 170
+  numberOfRow: 150
   bandSpeed: 3
   isCollisionActive: 1
   isGameRunning: 1
@@ -672,7 +672,7 @@ PrefabInstance:
     - target: {fileID: 1228110317908410455, guid: e430bcc17360929408cd86878df658c0, type: 3}
       propertyPath: cursorTexture
       value: 
-      objectReference: {fileID: 2800000, guid: ca665d90527bce6418d7a48a7c11d5e2, type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e430bcc17360929408cd86878df658c0, type: 3}
 --- !u!1 &1312007387
@@ -1165,7 +1165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2764832277913285717, guid: a0a6a89b47c306b449f20959202c8bbb, type: 3}
       propertyPath: numberOfRow
-      value: 170
+      value: 150
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0a6a89b47c306b449f20959202c8bbb, type: 3}
