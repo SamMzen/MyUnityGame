@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Datamine game.unity
     guid: 4fc32e3e801240d458441c4cca1f272f
   - enabled: 1
+<<<<<<< HEAD
+=======
+    path: Assets/Scenes/error scene.unity
+    guid: 498b407721af0644aa6a0402688f3db5
+  - enabled: 1
+>>>>>>> V3_firewall
     path: "Assets/Scenes/Ecran D\xE9faite.unity"
     guid: f58c6122be25dee48b0423326babffcd
   - enabled: 1
