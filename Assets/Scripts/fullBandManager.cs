@@ -28,9 +28,7 @@ public class fullBandManager : MonoBehaviour
                 else if (gameManagerE2.life <= 0 && gameManagerE2.isCollisionActive)
                 {
                     gameManagerE2.bandSpeed = 0;
-                    SceneManager.LoadScene("GameOverScene");
-
-                    Cursor.SetCursor(gameManagerE2.cursorTexture2, gameManagerE2.hotSpot, gameManagerE2.cursorMode);
+                    StartCoroutine(ExampleCoroutine());
                 }
             }
 
@@ -42,9 +40,19 @@ public class fullBandManager : MonoBehaviour
                 gameManagerE2.bandSpeed = 0;
                 OverheatBar.heat += 1.0f;
                 OverheatBar.isGame3Finished = true;
-                SceneManager.LoadScene("DesktopScene");
+                SceneManager.LoadScene("HubCentrale");
             }
         }
 
     }
+
+    IEnumerator ExampleCoroutine()
+    {
+        Cursor.SetCursor(gameManagerE2.cursorTexture2, gameManagerE2.hotSpot, gameManagerE2.cursorMode);
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("error scene");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Ecran Défaite");
+    }
+
 }
